@@ -16,3 +16,12 @@ VALUES
 <{firstname: }>,
 <{lastname: }>);
 ```
+
+```sql
+INSERT INTO `tus`.`user` (`username`, `email`, `password`, `firstname`, `lastname`) VALUES
+('john.doe', 'john.doe@tus.ie', 'password', 'John', 'Doe'),
+('jane.smith', 'jane.smith@tus.ie', 'password', 'Jane', 'Smith'),
+('bob.johnson', 'bob.johnson@tus.ie', 'password', 'Bob', 'Johnson'),
+('alice.williams', 'alice.williams@tus.ie', 'password', 'Alice', 'Williams'),
+('charlie.brown', 'charlie.brown@tus.ie', 'password', 'Charlie', 'Brown');
+```
